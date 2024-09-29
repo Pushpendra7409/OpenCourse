@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { PiArrowLineUpBold } from "react-icons/pi";
 import { Link } from 'react-router-dom';
-import { FiMenu, FiX } from 'react-icons/fi'; // For Hamburger and Close icons
+import { FiMenu, FiX } from 'react-icons/fi';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,6 +12,7 @@ function Navbar() {
 
   return (
     <>
+    <div className='bg-zinc-900 text-white'>
       <div className='max-w-screen-xl mx-auto py-6 flex items-center justify-between border-b-[1px] border-zinc-700'>
         
         <div className='nleft flex items-center'>
@@ -58,6 +59,7 @@ function Navbar() {
           </ul>
         </div>
       )}
+      </div>
     </>
   );
 }
