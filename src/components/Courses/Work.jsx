@@ -6,9 +6,9 @@ function Work() {
 
     const [images, setImages] = useState(
       [
-        {url:"/Img1.png", top: "50%", left: "50%", isActive: false},
-        {url:"/Img2.png", top: "53%", left: "43%", isActive: false},
-        {url:"/Img3.png", top: "43%", left: "53%", isActive: false},
+        {url:"/Img1.png", top: "60%", left: "50%", isActive: false},
+        {url:"/Img2.png", top: "50%", left: "40%", isActive: false},
+        {url:"/Img3.png", top: "70%", left: "60%", isActive: false},
         {url:"/Img4.png", top: "60%", left: "50%", isActive: false},
         {url:"/Img5.png", top: "67%", left: "55%", isActive: false},
         {url:"/Img6.png", top: "70%", left: "45%", isActive: false},
@@ -41,16 +41,16 @@ function Work() {
           imagesShow([0,1])
           break;
         case 3:
-          imagesShow([0,1,2,3])
+          imagesShow([0,1,2,])
           break;
         case 4:
-          imagesShow([0,1,2,3,4])
+          imagesShow([0,1,2,3])
           break;
         case 5:
-          imagesShow([0,1,2,3,4,5])
+          imagesShow([0,1,2,3,4])
           break;
         case 6:
-          imagesShow([0,1,2,3,4,5,6])
+          imagesShow([0,1,2,3,4,5])
           break;
         case 7:
           imagesShow([0,1,2,3,4,5,6,7])
@@ -76,7 +76,7 @@ function Work() {
   return (
   <div className='w-full mt-10'>
   <div className='relative max-w-screen-xl mx-auto text-center'>
-    <h1 className='text-[28vw] leading-none font-medium select-none tracking-tight'>work</h1>
+    <h1 className='text-[20vw] leading-none font-medium select-none tracking-tight py-10 te'>Courses</h1>
     <div className='absolute top-0 w-full h-full'>
         {images.map(
             (elem, index) =>
