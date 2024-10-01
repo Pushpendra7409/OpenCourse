@@ -76,7 +76,7 @@ function Work() {
   return (
   <div className='w-full mt-10'>
   <div className='relative max-w-screen-xl mx-auto text-center'>
-    <h1 className='text-[20vw] leading-none font-medium select-none tracking-tight py-10 te'>Courses</h1>
+    <h1 className='text-[20vw] leading-none font-medium select-none tracking-tight py-10 text-white'>Courses</h1>
     <div className='absolute top-0 w-full h-full'>
         {images.map(
             (elem, index) =>

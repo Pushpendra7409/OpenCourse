@@ -4,8 +4,9 @@ import Navbar from './Navbar';
 import Work from './Courses/Work';
 import Stripes from './Courses/Stripes';
 import Products from './Courses/Products';
-
-
+import Cards from './Courses/Cards';
+import Marquees from './Courses/Marquees';
+import Footer from './Footer';
 function Courses() {
   return (
    <>
@@ -15,6 +16,9 @@ function Courses() {
         <Work />
         <Stripes />
         <Products />
+        <Marquees />
+        <Cards />
+        <Footer />
       </div>
     </div>
    </>
