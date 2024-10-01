@@ -12,8 +12,8 @@ function Navbar() {
 
   return (
     <>
-    <div className='bg-zinc-900 text-white'>
-      <div className='max-w-screen-xl mx-auto py-6 flex items-center justify-between border-b-[1px] border-zinc-700'>
+    <div>
+      <div className='max-w-screen-xl mx-auto text-white py-6 flex items-center justify-between border-b-[1px] border-zinc-700'>
         
         <div className='nleft flex items-center'>
           <h1 className='text-xl flex items-center gap-2'><PiArrowLineUpBold />OpenCourses</h1>

@@ -1,6 +1,10 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Card from './Card';
+import Counter from './Counter';
+import Hero from './Hero';
+import Video from './Video';
+import Footer from './Footer';
 
 const cardData = [
   {
@@ -72,24 +76,11 @@ function Home() {
   return (
     <>
       <Navbar />
-
-      <div className='bg-zinc-900 text-white w-full pt-24 py-56'>
-        <div className='w-full'>
-          <div className='max-w-screen-xl mx-auto text-center'>
-            <h1 className='text-[10vw] leading-none sm:text-[15vw] md:text-[10vw]'>
-              <span className='block sm:inline'>Empower Your</span>{' '}
-              <span className=" block sm:inline bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                Future
-              </span>{' '}
-              <span className='block sm:inline italic'>with</span>{' '}
-              <span className='block sm:inline'>Knowledge.</span>
-            </h1>
-          </div>
-        </div>
-      </div>
-
-      {/* Pass the cardData as a prop to the Card component */}
+      <Hero />
+      <Counter />
       <Card cards={cardData} />
+      <Video />
+      <Footer />
     </>
   );
 }
