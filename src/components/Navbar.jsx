@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { PiArrowLineUpBold } from "react-icons/pi";
 import { Link } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
 
@@ -16,7 +15,7 @@ function Navbar() {
       <div className='max-w-screen-xl mx-auto text-white py-6 flex items-center justify-between border-b-[1px] border-zinc-700'>
         
         <div className='nleft flex items-center'>
-          <h1 className='text-xl flex items-center gap-2'><PiArrowLineUpBold />OpenCourses</h1>
+          <h1 className='text-xl flex items-center gap-2'><span className='w-10 h-10'><img src='/logo.png'></img></span>SkillX</h1>
 
           
           <div className='hidden md:flex Links gap-14 ml-20'>
